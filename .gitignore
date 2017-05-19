@@ -1,0 +1,5 @@
+src/MiddlewareAspNetCore/bin/*
+src/MiddlewareAspNetCore/obj/*
+src/MiddlewareAspNetCore/wwwroot/lib/*
+src/MiddlewareAspNetCore/Project_Readme.html
+.vs/*
