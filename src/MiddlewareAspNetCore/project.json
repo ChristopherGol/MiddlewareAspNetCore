@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",
@@ -10,7 +10,7 @@
       "version": "1.0.0-preview2-final",
       "type": "build"
     },
-    "Microsoft.AspNetCore.Routing": "1.0.1",
+    "Microsoft.AspNetCore.Routing": "1.1.2",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
     "Microsoft.AspNetCore.StaticFiles": "1.0.0",
@@ -20,7 +20,13 @@
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0"
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+    "Microsoft.AspNetCore.Identity": "1.0.0", // Identity mechanism. 
+    "Microsoft.AspNetCore.ResponseCompression": "1.0.2", // Compress response mechanism. 
+    "Microsoft.Extensions.Caching.Memory": "1.1.2", // Cache memory mechanism.
+    "Microsoft.AspNetCore.ResponseCaching": "1.1.2", // Cache response mechanism.  
+    "Microsoft.AspNetCore.Session": "1.1.2", // Session mechanism.
+    "Microsoft.AspNetCore.Mvc.Core": "1.1.3"
   },
 
   "tools": {
