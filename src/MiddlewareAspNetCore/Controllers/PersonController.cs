@@ -10,6 +10,7 @@ namespace MiddlewareAspNetCore.Controllers
     public class PersonController : Controller
     {
         // GET: /<controller>/
+        [MiddlewareFilter(typeof(OwnPipeline))]
         public IActionResult Index(string name, string surname, int age)
         {
             Person person = new Person()

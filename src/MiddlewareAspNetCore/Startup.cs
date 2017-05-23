@@ -58,10 +58,10 @@ namespace MiddlewareAspNetCore
             var logger = loggerFactory.CreateLogger("MiddlewareAspNetCore");
 
             // It handles all requests and terminates the pipeline.
-            app.Run(async context =>
+            /*app.Run(async context =>
             {
                 await context.Response.WriteAsync("Hi!");
-            });
+            });*/
 
             // It allows sequenced the multiple requests.
             app.Use(async (context, next) =>
@@ -91,7 +91,7 @@ namespace MiddlewareAspNetCore
             app.UseStaticFiles();
 
             // Authenticate requests before access to secure resources.
-            app.UseIdentity();
+            //app.UseIdentity();
 
             // It allows to compress response. 
             app.UseResponseCompression();
